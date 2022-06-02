@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<!--    Подключение файла со стилями     -->
+	<link rel="stylesheet" href="css/style.css">
+	<!----------------------------------------->
+
+	<!--    Подключение файла с иконочными шрифтами     -->
+	<link rel="stylesheet" href="css/iconsfont.css">
+	<!---------------------------------------------------->
+
+	<!--    Подключение шрифтов     -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+	<!----------------------------->
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Practca 13</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class='container'>
+			<div class="header__body">
+				<a href="#" class="header__logo"><img src="img/logo-black.png" alt=""></a>
+				<div class="header__buttons">
+					<button class="header__btn"><img src="img/heart.svg" alt=""></button>
+					<button class="header__btn"><img src="img/account.svg" alt=""></button>
+					<button class="header__btn header__btn-basket">
+						<img src="img/basket.svg" alt="">
+						<div class="header__btn-basket-number text-1">1</div>
+					</button>
+				</div>
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="menu__body">
+						<div class="menu__top">
+							<a href="#" class="menu__logo"><img src="img/logo-white.png" alt=""></a>
+							<div class="menu__buttons">
+								<button class="header__btn menu__btn"><img src="img/heart.svg" alt=""></button>
+								<button class="header__btn menu__btn"><img src="img/account.svg" alt=""></button>
+								<button class="header__btn header__btn-basket menu__btn menu__btn-basket">
+									<img src="img/basket.svg" alt="">
+									<div class="header__btn-basket-number menu__btn-basket-number">1</div>
+								</button>
+							</div>
+						</div>
+						<div class="menu__choice">
+							<nav class="menu__nav">
+								<button data-tab="#tab_1" class="menu__nav-btn">Ювелирные изделия</button>
+								<button data-tab="#tab_2" class="menu__nav-btn">часы</button>
+								<button data-tab="#tab_3" class="menu__nav-btn">ароматы</button>
+								<button data-tab="#tab_4" class="menu__nav-btn">бренды</button>
+								<button data-tab="#tab_5" class="menu__nav-btn">изделия из кожи</button>
+								<button data-tab="#tab_6" class="menu__nav-btn">Свадебные украшения</button>
+								<button data-tab="#tab_7" class="menu__nav-btn">другое</button>
+							</nav>
+							<div class="menu__items">
+								<div class="menu__item item-menu" id="tab_1">
+									<div class="item-menu__branches">
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">для кого</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Для женщин</a></li>
+												<li><a href="#" class="item-menu__link">Для мужчин</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">Категории</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Кольца</a></li>
+												<li><a href="#" class="item-menu__link">Браслеты</a></li>
+												<li><a href="#" class="item-menu__link">Колье</a></li>
+												<li><a href="#" class="item-menu__link">Серьги</a></li>
+												<li><a href="#" class="item-menu__link">Броши</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">материал</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Изделия с бриллиантами</a></li>
+												<li><a href="#" class="item-menu__link">Желтое золото</a></li>
+												<li><a href="#" class="item-menu__link">Белое золото</a></li>
+												<li><a href="#" class="item-menu__link">Розовое золото</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">бренд</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Chopard</a></li>
+												<li><a href="#" class="item-menu__link">Cartier</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+												<li><a href="#" class="item-menu__more">Показать все бренды</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="menu__item item-menu" id="tab_2">
+									<div class="item-menu__branches">
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">для кого</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Для женщин</a></li>
+												<li><a href="#" class="item-menu__link">Для мужчин</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">Категории</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Браслеты</a></li>
+												<li><a href="#" class="item-menu__link">Серьги</a></li>
+												<li><a href="#" class="item-menu__link">Броши</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">материал</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Желтое золото</a></li>
+												<li><a href="#" class="item-menu__link">Белое золото</a></li>
+												<li><a href="#" class="item-menu__link">Розовое золото</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">бренд</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+												<li><a href="#" class="item-menu__more">Показать все бренды</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="menu__item item-menu" id="tab_3">
+									<div class="item-menu__branches">
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">для кого</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Для женщин</a></li>
+												<li><a href="#" class="item-menu__link">Для мужчин</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">бренд</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+												<li><a href="#" class="item-menu__more">Показать все бренды</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="menu__item item-menu" id="tab_4">
+									<div class="item-menu__branches">
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">для кого</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Для женщин</a></li>
+												<li><a href="#" class="item-menu__link">Для мужчин</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">бренд</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="menu__item item-menu" id="tab_5">
+									<div class="item-menu__branches">
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">для кого</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Для женщин</a></li>
+												<li><a href="#" class="item-menu__link">Для мужчин</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">бренд</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="menu__item item-menu" id="tab_6">
+									<div class="item-menu__branches">
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">для кого</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Для женщин</a></li>
+												<li><a href="#" class="item-menu__link">Для мужчин</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">бренд</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">бренд</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+												<li><a href="#" class="item-menu__more">Показать все бренды</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="menu__item item-menu" id="tab_7">
+									<div class="item-menu__branches">
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">для кого</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Для женщин</a></li>
+												<li><a href="#" class="item-menu__link">Для мужчин</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">бренд</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">для кого</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Для женщин</a></li>
+												<li><a href="#" class="item-menu__link">Для мужчин</a></li>
+												<li><a href="#" class="item-menu__link">Для детей</a></li>
+											</ul>
+										</div>
+										<div class="item-menu__branch">
+											<h4 class="item-menu__title">бренд</h4>
+											<ul class="item-menu__list">
+												<li><a href="#" class="item-menu__link">Mercury</a></li>
+												<li><a href="#" class="item-menu__link">Graff</a></li>
+												<li><a href="#" class="item-menu__link">Garrard</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="menu__footer footer-menu">
+							<div class="footer-menu__body">
+								<div class="footer-menu__img">
+									<img src="img/menu-img.png" alt="">
+									<div class="footer-menu__img-description">
+										<p class="footer-menu__img-text">Новая коллекция by Mercury</p>
+										<h3 class="footer-menu__img-title">JUSTE UN CLOU</h3>
+										<a href="#" class="footer-menu__img-link">Cмотреть коллекцию<span><img src="img/arrow.svg"
+													alt=""></span></a>
+									</div>
+								</div>
+								<div class="footer-menu__connection">
+									<div class="footer-menu__connection-top">
+										<p class="footer-menu__connection-text">телефон горячей линии</p>
+										<p class="footer-menu__connection-number text-1">+7 800 456 456</p>
+										<div class="footer-menu__connection-links">
+											<a href="#" class="footer-menu__connection-link"><img src="img/facebook.svg"
+													alt=""></a>
+											<a href="#" class="footer-menu__connection-link"><img src="img/instagram.svg"
+													alt=""></a>
+										</div>
+									</div>
+									<div class="footer-menu__connection-bottom">
+										<p class="footer-menu__connection-text">подпишитесь на новости</p>
+										<form action="#">
+											<div class="footer-menu__connection-input">
+												<input placeholder="Введите E-mail" type="email" class="text-1">
+												<button type="submit"><img src="img/arrow.svg" alt=""></button>
+											</div>
+										</form>
+										<div class="footer-menu__connection-uploades">
+											<a href="#" class="footer-menu__connection-upload"><img src="img/menu-app-store.png"
+													alt=""></a>
+											<a href="#" class="footer-menu__connection-upload"><img src="img/menu-google-play.png"
+													alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="first-screen">
+			<div class="first-screen__bg">
+				<div class="first-screen__bg-white"></div>
+				<div class="first-screen__bg-black"></div>
+			</div>
+			<div class='container'>
+				<div class="first-screen__body">
+					<div class="first-screen__white">
+						<div class="first-screen__descriprion">
+							<h1 class="first-screen__title">HIGH JEWELRY</h1>
+							<a href="#" class="first-screen__btn">Смотреть коллекцию</a>
+						</div>
+						<div class="first-screen__language-btns">
+							<a href="#" class="first-screen__language-btn">rU</a>
+							<a href="#" class="first-screen__language-btn">En</a>
+						</div>
+					</div>
+					<div class="first-screen__black">
+						<div class="first-screen__img"><img src="img/fs-ring.png" alt=""></div>
+						<div class="first-screen__ring-description">
+							<h3 class="first-screen__ring-title">КОЛЬЦО TRINITY, Cartier</h3>
+							<p class="first-screen__ring-text text-1">Белое золото, бриллианты</p>
+							<p class="first-screen__ring-sale">498 000 ₽</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-for">
+			<div class="section-for__body">
+				<a href="#" class="section-for__item">
+					<div class="section-for__img"><img src="img/come-img1.png" alt=""></div>
+					<div class="section-for__description">
+						<h4 class="section-for__subtitle">Перейти в раздел</h4>
+						<h2 class="section-for__title">Для мужчин</h2>
+					</div>
+				</a>
+				<a href="#" class="section-for__item">
+					<div class="section-for__img"><img src="img/come-img2.png" alt=""></div>
+					<div class="section-for__description">
+						<h4 class="section-for__subtitle">Перейти в раздел</h4>
+						<h2 class="section-for__title">Для женщин</h2>
+					</div>
+				</a>
+			</div>
+		</section>
+		<section class="find">
+			<div class="find__body">
+				<div class="find__item find__enter">
+					<div class="find__enter-body">
+						<h2 class="find__title title-1">Найди бутик около себя</h2>
+						<p class="find__text text-1">Введите свой адрес и узнайте о самых ближайших бутиках к вам</p>
+						<form action="#">
+							<div class="find__input">
+								<input placeholder="Введите адрес" type="text">
+								<button type="submit"><img src="img/arrow.svg" alt=""></button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="find__item find__map">
+					<div class="find__img"><img src="img/find-img.png" alt=""></div>
+					<div class="find__location-items">
+						<div class="find__location-item find__location-item1">
+							<img src="img/find-location.png" alt="">
+							<img src="img/find-location-painted.svg" alt="">
+							<div class="find__adress">ул. Тверская, 24</div>
+						</div>
+						<div class="find__location-item find__location-item2">
+							<img src="img/find-location.png" alt="">
+							<img src="img/find-location-painted.svg" alt="">
+							<div class="find__adress">ул. Тверская, 24</div>
+						</div>
+						<div class="find__location-item find__location-item3">
+							<img src="img/find-location.png" alt="">
+							<img src="img/find-location-painted.svg" alt="">
+							<div class="find__adress">ул. Тверская, 24</div>
+						</div>
+						<div class="find__location-item find__location-item4">
+							<img src="img/find-location.png" alt="">
+							<img src="img/find-location-painted.svg" alt="">
+							<div class="find__adress">ул. Тверская, 24</div>
+						</div>
+						<div class="find__location-item find__location-item5">
+							<img src="img/find-location.png" alt="">
+							<img src="img/find-location-painted.svg" alt="">
+							<div class="find__adress">ул. Тверская, 24</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="products">
+			<div class="products__body">
+				<a href="#" class="products__item products__item1 item-products">
+					<div class="item-products__img"><img src="img/products-img1.png" alt=""></div>
+					<div class="item-products__description">
+						<h4 class="item-products__name">КОЛЬЦО jow’s, Cartier</h4>
+						<p class="item-products__text text-1">Белое золото, бриллианты</p>
+						<p class="item-products__sale">674 000 ₽</p>
+					</div>
+				</a>
+				<a href="#" class="products__item products__item2 item-products">
+					<div class="item-products__img"><img src="img/products-img2.png" alt=""></div>
+					<div class="item-products__description">
+						<h4 class="item-products__name">КОЛЬЦО croix, Cartier</h4>
+						<p class="item-products__text text-1">Желтое, белое, розовое золото</p>
+						<p class="item-products__sale">432 000 ₽</p>
+					</div>
+				</a>
+				<a href="#" class="products__item products__item3 item-products-big">
+					<div class="item-products-big__img"><img src="img/products-img3.png" alt=""></div>
+					<div class="item-products-big__description">
+						<h4 class="item-products__name">КОлье etoile, HUBLOT</h4>
+						<p class="item-products__text text-1">Белое золото, бриллианты</p>
+						<p class="item-products__sale">539 000 ₽</p>
+					</div>
+				</a>
+				<a href="#" class="products__item products__item4 item-products">
+					<div class="item-products__img"><img src="img/products-img4.png" alt=""></div>
+					<div class="item-products__description">
+						<h4 class="item-products__name">Серьги moon, HUBLOT</h4>
+						<p class="item-products__text text-1">Желтое золото, сапфир</p>
+						<p class="item-products__sale">498 000 ₽</p>
+					</div>
+				</a>
+				<a href="#" class="products__item products__item5 item-products">
+					<div class="item-products__img"><img src="img/products-img5.png" alt=""></div>
+					<div class="item-products__description">
+						<h4 class="item-products__name">серьги win, BLANCPAIN</h4>
+						<p class="item-products__text text-1">Желтое золото, жемчуг</p>
+						<p class="item-products__sale">398 000 ₽</p>
+					</div>
+				</a>
+			</div>
+		</section>
+		<section class="social-medias">
+			<div class="social-medias__body">
+				<div class='container'>
+					<h2 class="social-medias__title title-1">Мы в социальных сетях</h2>
+				</div>
+				<div class="social-medias__slider slider">
+					<div class="slider__body">
+						<div class="slider__item">
+							<img src="img/slider-img1.png" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slider-img2.png" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slider-img3.png" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slider-img4.png" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slider-img5.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class='container'>
+					<div class="social-medias__links">
+						<a href="#" class="social-medias__link"><img src="img/facebook.svg" alt=""></a>
+						<a href="#" class="social-medias__link"><img src="img/instagram.svg" alt=""></a>
+					</div>
+				</div>
+		</section>
+		<section class="connection">
+			<div class="connection__body">
+				<div class="connection__img"><img src="img/connection-img.png" alt=""></div>
+				<div class="connection__content">
+					<div class="connection__number">
+						<h4 class="connection__title">телефон флагманского магазина</h4>
+						<p class="connection__text">+7 800 456 456</p>
+					</div>
+					<div class="connection__subscription">
+						<h4 class="connection__title">подпишитесь на новости</h4>
+						<form action="#">
+							<div class="connection__input">
+								<input placeholder="Введите E-mail" type="email">
+								<button type="submit"><img src="img/black-arrow.svg" alt=""></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class='container'>
+			<div class="footer__body">
+				<div class="footer__questions">
+					<a href="#" class="footer__question">работа в компании</a>
+					<a href="#" class="footer__question">условия пользования</a>
+					<a href="#" class="footer__question">выходные данные</a>
+					<a href="#" class="footer__question">политика конфиденциальности</a>
+					<a href="#" class="footer__question">карта сайта</a>
+				</div>
+				<div class="footer__connection">
+					<a href="#" class="footer__logo"><img src="img/logo-white.png" alt=""></a>
+					<div class="footer__content">
+						<div class="footer__number">
+							<h4 class="footer__title">телефон горячей линии</h4>
+							<p class="footer__text">+7 800 456 456</p>
+							<div class="footer__links">
+								<a href="#" class="footer__link"><img src="img/facebook.svg" alt=""></a>
+								<a href="#" class="footer__link"><img src="img/instagram.svg" alt=""></a>
+							</div>
+						</div>
+						<div class="footer__subscribe">
+							<h4 class="footer__title">подпишитесь на новости</h4>
+							<form action="#">
+								<div class="footer__input">
+									<input placeholder="Введите E-mail" type="email">
+									<button type="submit"><img src="img//arrow.svg" alt=""></button>
+								</div>
+							</form>
+							<div class="footer__uploades">
+								<a href="#" class="footer__upload"><img src="img/menu-app-store.png" alt=""></a>
+								<a href="#" class="footer__upload"><img src="img/menu-google-play.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
